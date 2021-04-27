@@ -56,7 +56,7 @@
 
 ## **💻 Projeto**
 
-Podcastr é um website para ouvir podicasts que utiliza das principais funções do Next.js, trazendo uma otima performance para a aplicação e uma otima experiencia para o usuario, o Podcastr foi um projeto desenvolvido durante o evento semana NLW#5(Next Level Week 5) com conteudo produzido pela **[Rocketseat][rocketseat_site]**.
+Podcastr é um website para ouvir podcasts que utiliza das principais funções do Next.js, trazendo uma otima performance para a aplicação e uma otima experiencia para o usuario, o Podcastr foi um projeto desenvolvido durante o evento semana NLW#5(Next Level Week 5) com conteudo produzido pela **[Rocketseat][rocketseat_site]**.
 
 ---
 
