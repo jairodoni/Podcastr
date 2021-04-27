@@ -1,13 +1,10 @@
 .headerContainer {
-  background: var(--white);
   height: 6.5rem;
 
   display: flex;
   align-items: center;
 
   padding: 2rem 4rem;
-
-  border-bottom: 1px solid var(--gray-100);
 
   p {
     margin-left: 2rem;
@@ -16,7 +13,52 @@
   }
 
   span {
-    margin-left: auto;
     text-transform: capitalize;
+  }
+  button {
+    font-size: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+}
+
+.dark {
+  background: var(--purple-900);
+  color: var(--gray-200);
+  border-bottom: 1px solid var(--gray-200);
+  button {
+    background: var(--purple-850);
+    border: 0;
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.8);
+    }
+  }
+}
+
+.white {
+  background: var(--white);
+  color: var(--gray-500);
+  border-bottom: 1px solid var(--gray-100);
+  button {
+    background: var(--white);
+    border: 1px solid var(--gray-100);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 1) 45%,
+      rgba(230, 232, 235, 1) 100%
+    );
+
+    transition: filter 0.2s;
+
+    &:hover {
+      filter: brightness(0.9);
+    }
   }
 }

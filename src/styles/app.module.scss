@@ -1,7 +1,30 @@
 .wrapper {
   display: flex;
-
   main {
     flex: 1;
+  }
+}
+
+.dark {
+  background: var(--purple-950);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--gray-150);
+  }
+}
+
+.white {
+  background: var(--gray-50);
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--gray-800);
   }
 }
