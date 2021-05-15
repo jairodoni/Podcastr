@@ -14,9 +14,14 @@
   
   <h1 align="center">
       <img alt="podcastr" title="podcastr" src=".github/logo.svg" width="352px" />
-  </h1>
+  </h1>  
   
-  ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript_shields] ![Next][next_shields]
+   [![Licence](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE.md) 
+   <img alt="TypeScript" src="https://img.shields.io/badge/typescript-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white"/> 
+  <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/> 
+  <img alt="Next JS" src="https://img.shields.io/badge/nextjs-%23000000.svg?&style=for-the-badge&logo=next.js&logoColor=white"/>
+  
+<!--   ![GitHub][repository_license_badge] ![React_Badge][web_react_badge] ![Types][typescript_shields] ![Next][next_shields] -->
   
 </div>
 
